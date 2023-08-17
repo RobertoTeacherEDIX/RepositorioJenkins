@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Echo webhook') {
+    stage('Echo webhook probar') {
       steps {
         echo 'Hola'
       }
