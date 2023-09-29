@@ -1,4 +1,3 @@
-@library('github.com/RobertoTeacherEDIX/RepositorioLibrerias')
 pipeline {
     agent none
     stages {
