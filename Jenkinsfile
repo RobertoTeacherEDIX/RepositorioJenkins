@@ -1,4 +1,4 @@
-@library('github.com/RobertoTeacherEDIX/RepositorioLibrerias')
+@Library('github.com/RobertoTeacherEDIX/RepositorioLibrerias') _
 
 pipeline {
     agent none
