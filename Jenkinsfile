@@ -6,15 +6,15 @@ pipeline {
         stage('Stage crea contenedor') {
 		    agent {
 			docker { image 'node:20-alpine' }
-                }
-			}
-           	steps {
+                	}
+           	    steps {
                 	echo 'Stage con ejecución normal'
 			script { 
 				LibreriaContenedor()
-           		 }
+           		       }
+		    	  }
+	}
         }
-   	}
 post { always { echo "Fin del pipeline" } }
 }
 
