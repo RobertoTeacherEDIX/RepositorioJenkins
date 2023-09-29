@@ -5,13 +5,13 @@ pipeline {
     stages {
         stage('Stage crea contenedor') {
 		    agent {
-			    script {
-                    LibreriaContenedor()
+			docker { image 'node:20-alpine' }
                 }
 			}
            	steps {
                 	echo 'Stage con ejecución normal'
-			        sh 'node --version'
+			script { 
+				LibreriaContenedor()
            		 }
         }
    	}
