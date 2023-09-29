@@ -9,9 +9,7 @@ pipeline {
                 	}
            	    steps {
                 	echo 'Stage con ejecución normal'
-			script { 
 				LibreriaContenedor()
-           		       }
 		    	  }
 	}
         }
