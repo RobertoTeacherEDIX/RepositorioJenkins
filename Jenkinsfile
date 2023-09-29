@@ -1,4 +1,4 @@
-@library('https://github.com/RobertoTeacherEDIX/RepositorioJenkins.git/MisLibrerias')
+@library('https://github.com/RobertoTeacherEDIX/RepositorioJenkins/tree/main/MisLibrerias')
 pipeline {
     agent none
     stages {
