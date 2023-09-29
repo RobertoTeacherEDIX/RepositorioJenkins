@@ -1,3 +1,4 @@
+@library('https://github.com/RobertoTeacherEDIX/RepositorioJenkins.git/MisLibrerias')
 pipeline {
     agent none
     stages {
